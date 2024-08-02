@@ -1,7 +1,5 @@
 import pandas as pd
 
-
-
 df = pd.read_excel(r"C:/Users/sinas/OneDrive/Desktop/Introduction to Data Science/Library.xlsx")
 df1=df.isnull()
 df2=df.dropna()
